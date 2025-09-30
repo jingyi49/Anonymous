@@ -63,6 +63,7 @@ python infer.py
 
 
 ## Pre-trained models
+To be released...
 | Model | Training Loss (Stage 1) | Dataset | Checkpoint Path |
 |-------|-------------------------|---------|-----------------|
 | **Original Vocos** | No First Stage | AudioSet | `logs96/lightning_logs/version_0` |
