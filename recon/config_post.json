@@ -1,0 +1,29 @@
+{
+    "input_training_wav_list": "/cto_studio/lijingyi/recon/filelist.train",
+    "input_validation_wav_list": "/cto_studio/lijingyi/recon/filelist.val",
+    "test_input_wavs_dir":"/cto_studio/vistring/zhaozhiyuan/datasets/AudioSet/wavs/test",
+    "test_wav_output_dir":"cosmos96_output",
+
+    "batch_size": 64,
+    "learning_rate": 0.0002,
+    "adam_b1": 0.9,
+    "adam_b2": 0.999,
+    "lr_decay": 0.999,
+    "seed": 1234,
+    "training_epochs": 3100,
+    "stdout_interval":5,
+    "checkpoint_interval": 5000,
+    "summary_interval": 100,
+    "validation_interval": 5000,
+    "checkpoint_path": "cp_8_gm_post",
+    "checkpoint_file_load_Encoder": "cp_8_gm_post/encoder_01000000",
+    "checkpoint_file_load_Decoder": "cp_8_gm_post/decoder_01000000",
+
+    "segment_size": 24320,
+    "num_mels": 96,
+    "n_fft": 1024,
+    "hop_length": 256,
+
+    "sampling_rate": 44100,
+    "num_workers": 4
+}
