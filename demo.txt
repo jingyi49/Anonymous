@@ -1,0 +1,4 @@
+/cto_studio/vistring/zhaozhiyuan/datasets/AudioSet/wavs/bal_train/bal_train05/SnSsXbJAal8.wav
+/cto_studio/vistring/zhaozhiyuan/datasets/AudioSet/wavs/bal_train/bal_train05/Lv1ZWk2gQkA.wav
+/cto_studio/vistring/zhaozhiyuan/datasets/AudioSet/wavs/bal_train/bal_train05/zj0wawtfZsA.wav
+/cto_studio/vistring/zhaozhiyuan/datasets/AudioSet/wavs/bal_train/bal_train05/GUuBvIimNqo.wav
