@@ -1,0 +1,17 @@
+{
+  "center": true,
+  "f_max": null,
+  "f_min": 0,
+  "feature_extractor_type": "CedFeatureExtractor",
+  "auto_map": {
+    "AutoFeatureExtractor": "feature_extraction_ced.CedFeatureExtractor"
+  },
+  "feature_size": 64,
+  "hop_size": 160,
+  "n_fft": 512,
+  "padding_side": "right",
+  "padding_value": 0.0,
+  "return_attention_mask": false,
+  "sampling_rate": 16000,
+  "win_size": 512
+}
