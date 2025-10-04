@@ -1,6 +1,6 @@
 # MelCap: A Unified Single-Codebook Neural Codec for High-Fidelity Audio Compression
 
-[Audio samples](https://melcapdemo.github.io/Mel_cap_demo/) |
+[Audio samples](https://melcapdemo.github.io/Mel_cap_demo/) | [Paper](https://arxiv.org/html/2510.01903v1)
 
 MelCap is a neural audio codec that compresses complex audio into a single codebook and reconstructs it with high fidelity.
 
