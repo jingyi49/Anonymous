@@ -63,7 +63,7 @@ python infer.py
 
 
 ## Pre-trained models
-To be released...
+[Released at huggingface](https://huggingface.co/jingyi49/MelCap)
 | Model | Training Loss (Stage 1) | Dataset | First Stage Checkpoint Path | Second StageCheckpoint Path |
 |-------|-------------------------|---------|-----------------|-----------------|
 | **Original Vocos** | No First Stage | AudioSet |`logs96/lightning_logs/version_0`|`logs96/lightning_logs/version_0` |
