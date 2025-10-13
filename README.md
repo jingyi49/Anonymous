@@ -67,9 +67,9 @@ python infer.py
 | Model | Training Loss (Stage 1) | Dataset | First Stage Checkpoint Path | Second StageCheckpoint Path |
 |-------|-------------------------|---------|-----------------|-----------------|
 | **Original Vocos** | No First Stage | AudioSet |None|`logs96/lightning_logs/version_0` |
-| **VQ Model** | Reconstruction | AudioSet |`cp_8_vq3`|`logs96_decoder_vq/lightning_logs/version_1` |
-| **VGG-enhanced Model** | VGG + Reconstruction | AudioSet |`cp_8_vgg3` |`logs96_decoder_vgg/lightning_logs/version_8` |
-| **Large Dataset Model** | VGG + Reconstruction | AudioSet + HQ-Conversation | `cp_8_vgg3`|`logs96_decoder_ld/lightning_logs/version_0` |
+| **VQ Model** | Reconstruction | AudioSet |`cp_8_vq3/vae_00430000`|`logs96_decoder_vq/lightning_logs/version_1` |
+| **VGG-enhanced Model** | VGG + Reconstruction | AudioSet |`cp_8_vgg3/vae_00620000` |`logs96_decoder_vgg/lightning_logs/version_8` |
+| **Large Dataset Model** | VGG + Reconstruction | AudioSet + HQ-Conversation | `cp_8_vgg3/vae_00620000`|`logs96_decoder_ld/lightning_logs/version_0` |
 
 ## Acknowledgments
 We would like to acknowledge the following projects where parts of the codes in MelCAp are derived from:
