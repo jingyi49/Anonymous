@@ -171,8 +171,8 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 TARGET_SR = 44100   # 你训练 vocos/snac 的采样率，确认一下是否 24kHz
 
 # 路径
-gen_dir = Path("/tmp/lijingy-code-zsh/wavetokenizer_test")
-ref_dir = Path("/cto_studio/vistring/zhaozhiyuan/datasets/AudioSet/wavs/test")
+gen_dir = Path("")
+ref_dir = Path("")
 
 #gen_dir = Path("/tmp/lijingy-code-zsh/wavetokenizer_test")
 
